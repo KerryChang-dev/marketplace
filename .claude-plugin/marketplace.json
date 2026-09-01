@@ -385,13 +385,13 @@
     },
     {
       "name": "toast-english",
-      "description": "ToastEnglish（吐司英文）雙平台開發配套 plugin——開發本專案任一平台前先安裝。提供 setup（雙平台 clone + 切 develop）、manage-translations（翻譯後台 SSOT CRUD）、update-string-resources（後台字串同步回 iOS/Android 本地）三個 skill；專案 skill / agent 都收在本 plugin 之下。",
-      "version": "0.2.0",
+      "description": "ToastEnglish（吐司英文）雙平台開發配套 plugin——開發本專案任一平台前先安裝。提供 setup（雙平台 clone + 切 develop + 把專案資源索引寫進 CLAUDE.md）、bump-version（雙平台版號遞增發 MR）、manage-translations（翻譯後台 SSOT CRUD）、update-string-resources（後台字串同步回 iOS/Android 本地）、figma-translate-frame（Figma 框內文字整框翻譯）、figma-pull-image（Figma 圖片素材匯進雙平台）、api-inspect（App 網路流量分析）、app-log（線上網路錯誤 log 查詢）八個 skill；專案 skill / agent 都收在本 plugin 之下。",
+      "version": "0.4.0",
       "category": "development",
       "source": {
         "source": "github",
         "repo": "cm-ailab-cc-plugins/plugin-toast-english",
-        "ref": "v0.2.0"
+        "ref": "v0.4.0"
       },
       "homepage": "https://github.com/cm-ailab-cc-plugins/plugin-toast-english",
       "author": {
@@ -403,6 +403,7 @@
         "toastenglish",
         "i18n",
         "translation",
+        "figma",
         "ios",
         "android"
       ]
